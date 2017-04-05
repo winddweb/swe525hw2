@@ -1,0 +1,85 @@
+commit e64a62ddc073bd17b26943992b069356e029e30c
+Author: Yifeng <winddweb@gmail.com>
+Date:   Wed Apr 5 10:35:41 2017 -0700
+
+    Deleting file2.txt
+
+diff --git a/file1.txt b/file1.txt
+index ff78cd4..aeb6d6f 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1,3 +1,4 @@
+ Yifeng Software Engineering
+ Fav Res
+-Fav Movie
+\ No newline at end of file
++Fav Movie
++Magenta
+\ No newline at end of file
+diff --git a/file2.txt b/file2.txt
+deleted file mode 100644
+index 93aca26..0000000
+--- a/file2.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-2017 web developer
+\ No newline at end of file
+
+commit 8fd6ecfa1506a5c2709b31c1d1e255d9208d22b2
+Author: Yifeng <winddweb@gmail.com>
+Date:   Wed Apr 5 10:20:14 2017 -0700
+
+    year and title
+
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..93aca26
+--- /dev/null
++++ b/file2.txt
+@@ -0,0 +1 @@
++2017 web developer
+\ No newline at end of file
+
+commit 9cfed3fbb0a3edd06c67e1ce5e85d4aa47374136
+Author: Yifeng <winddweb@gmail.com>
+Date:   Wed Apr 5 10:05:17 2017 -0700
+
+    Added favorite restaurant and movie.
+
+diff --git a/file1.txt b/file1.txt
+index 87f7d27..ff78cd4 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1 +1,3 @@
+ Yifeng Software Engineering
++Fav Res
++Fav Movie
+\ No newline at end of file
+
+commit 15f797fd46cc625f3b8741518e014db20847a9bc
+Author: Yifeng <winddweb@gmail.com>
+Date:   Wed Apr 5 09:56:53 2017 -0700
+
+    Now has my major
+
+diff --git a/file1.txt b/file1.txt
+index 8e69293..87f7d27 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1 +1 @@
+-Yifeng 89980
++Yifeng Software Engineering
+
+commit 2bccbda4c4107afda54563cd0dd71bb90d6c67b8
+Author: Yifeng <winddweb@gmail.com>
+Date:   Sat Mar 25 15:45:04 2017 -0700
+
+    Committing a new file with my name
+
+diff --git a/file1.txt b/file1.txt
+new file mode 100644
+index 0000000..8e69293
+--- /dev/null
++++ b/file1.txt
+@@ -0,0 +1 @@
++Yifeng 89980
